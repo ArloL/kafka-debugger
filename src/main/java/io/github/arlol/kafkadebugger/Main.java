@@ -8,7 +8,9 @@ import org.apache.kafka.clients.producer.ProducerRecord;
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		System.out.println("Connecting to " + args[0] + " and producing to " + args[1]);
+		System.out.println(
+				"Connecting to " + args[0] + " and producing to " + args[1]
+		);
 		Properties props = new Properties();
 		props.put("bootstrap.servers", args[0]);
 		props.put(
