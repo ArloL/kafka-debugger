@@ -1,6 +1,5 @@
-<project xmlns="http://maven.apache.org/"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/maven.xsd
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/maven.xsd
 http://maven.apache.org/xsd/maven-project.xsd">
 
 	<modelVersion>4.0.0</modelVersion>
@@ -9,7 +8,7 @@ http://maven.apache.org/xsd/maven-project.xsd">
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.3.2</version>
-		<relativePath/>
+		<relativePath />
 	</parent>
 
 	<groupId>io.github.arlol</groupId>
