@@ -54,7 +54,7 @@ http://maven.apache.org/xsd/maven-project.xsd">
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
-				<version>3.3.0</version>
+				<version>3.7.1</version>
 				<executions>
 					<execution>
 						<phase>package</phase>
