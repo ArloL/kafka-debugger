@@ -1,0 +1,12 @@
+# Created by chorito https://github.com/ArloL/chorito
+
+*
+!/.gitignore
+!/eclipseCodeFormatter.xml
+!/externalDependencies.xml
+!/saveactions_settings.xml
+!/codeStyles
+!/codeStyles/codeStyleConfig.xml
+!/codeStyles/Project.xml
+
+# End of chorito. Add your ignores after this line and they will be preserved.

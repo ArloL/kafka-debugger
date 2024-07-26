@@ -1,16 +1,8 @@
 # Created by chorito https://github.com/ArloL/chorito
 
-### Eclipse ###
+Dockerfile
+.dockerignore
 
-/.project
-
-### Eclipse+Java ###
-
-/.classpath
-
-### Maven ###
-
-/target/
-/.flattened-pom.xml
+target/
 
 # End of chorito. Add your ignores after this line and they will be preserved.
