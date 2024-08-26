@@ -1,4 +1,4 @@
-# Created by chorito https://github.com/ArloL/chorito
+### IntelliJ IDEA ###
 
 *
 !/.gitignore
@@ -9,4 +9,4 @@
 !/codeStyles/codeStyleConfig.xml
 !/codeStyles/Project.xml
 
-# End of chorito. Add your ignores after this line and they will be preserved.
+# Add custom ignores after this line to be preserved during automated updates
