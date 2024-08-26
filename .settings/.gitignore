@@ -1,7 +1,9 @@
-# Created by chorito https://github.com/ArloL/chorito
+### Eclipse ###
 
-*.prefs
-!org.eclipse.jdt.core.prefs
-!org.eclipse.jdt.ui.prefs
+*
+!/.gitignore
+!/code-formatter-profile.xml
+!/org.eclipse.jdt.core.prefs
+!/org.eclipse.jdt.ui.prefs
 
-# End of chorito. Add your ignores after this line and they will be preserved.
+# Add custom ignores after this line to be preserved during automated updates
