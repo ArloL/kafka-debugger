@@ -30,7 +30,7 @@ http://maven.apache.org/xsd/maven-project.xsd">
 	</licenses>
 
 	<properties>
-		<java.version>21</java.version>
+		<java.version>25</java.version>
 		<sha1>HEAD</sha1>
 		<revision>0.0.1-SNAPSHOT</revision>
 		<start-class>io.github.arlol.kafkadebugger.Main</start-class>
