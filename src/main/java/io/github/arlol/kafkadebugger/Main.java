@@ -24,17 +24,17 @@ public class Main {
 				"org.apache.kafka.common.serialization.StringSerializer"
 		);
 
-		KafkaProducer<String, String> producer = new KafkaProducer<>(props);
-
-		ProducerRecord<String, String> record = new ProducerRecord<>(
-				args[1],
-				0,
-				"hello-world",
-				"This is a test message!"
-		);
-		producer.send(record).get();
-
-		producer.close();
+		try (KafkaProducer<String, String> producer = new KafkaProducer<>(
+				props
+		)) {
+			ProducerRecord<String, String> record = new ProducerRecord<>(
+					args[1],
+					0,
+					"hello-world",
+					"This is a test message!"
+			);
+			producer.send(record).get();
+		}
 	}
 
 }
