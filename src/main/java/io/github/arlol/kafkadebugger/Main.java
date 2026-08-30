@@ -1,13 +1,15 @@
 package io.github.arlol.kafkadebugger;
 
 import java.util.Properties;
+import java.util.concurrent.ExecutionException;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
 
 public class Main {
 
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args)
+			throws InterruptedException, ExecutionException {
 		System.out.println(
 				"Connecting to " + args[0] + " and producing to " + args[1]
 		);
